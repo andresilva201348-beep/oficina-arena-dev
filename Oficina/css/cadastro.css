@@ -1,0 +1,145 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+
+}
+
+
+
+
+
+.pagina-cadastro {
+    font-family: "Roboto", sans-serif;
+    line-height: 1.1;
+    background-color: #0a0e17;
+    color: #e3e1e1;
+
+}
+
+.main.cadastro {
+    min-height: 100vh;
+    max-width: 500px;
+    margin: 10px auto;
+    padding: 5px 10px;
+    display: flex;
+    justify-content: center;
+    border: 1px solid #21d9f5;
+    border-radius: 8px;
+    background-color: #0a0e30;
+}
+
+.logo-cadastro {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.logo-cadastro img {
+
+    max-width: 80%;
+    height: auto;
+    display: block;
+}
+
+.logo-cadastro h1 {
+    text-align: center;
+
+}
+
+.cadastro-form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+
+}
+
+.cadastro-intro {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    ;
+    margin: 10px 10px 15px;
+    font-size: 1rem;
+}
+
+.input-group {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    width: 100%;
+    padding: 12px 15px;
+    background-color: #151b2b;
+    border: 1px solid #2a3448;
+    border-radius: 8px;
+    transition: border-color 0.3s ease;
+
+}
+
+.input-group i {
+    color: #8b9bb4;
+    font-size: 18px;
+}
+
+.input-group input {
+    width: 100%;
+    background: transparent;
+    border: none;
+    outline: none;
+
+    color: #ffffff;
+    font-size: 15px;
+    font-family: inherit;
+}
+
+.input-group input::placeholder {
+    color: #7d8ba3;
+}
+
+.input-group:focus-within {
+    border-color: #3b82f6;
+    box-shadow: 0 0 0 2px rgba(59, 130, 246, 0.15);
+}
+
+.cadastro-btn {
+    width: 100%;
+    padding: 12px 15px;
+    background-color: #c14401;
+    border: 1px solid #c14401;
+    border-radius: 8px;
+    cursor: pointer;
+    color: #ffffff;
+
+}
+
+.cadastro-btn:hover {
+    background-color: #a03801;
+    box-shadow: 0 0 15px rgba(193, 68, 1, 0.4);
+}
+
+.cadastro-footer {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-top: 15px;
+    font-size: 1rem;
+    gap: 15px;
+}
+
+.cadastro-footer a {
+    color: #21d9f5;
+    text-decoration: none;
+    transition: color 0.3s ease;
+    border: 1px solid #21d9f5;
+    border-radius: 8px;
+    padding: 5px 10px;
+
+}
+
+.cadastro-footer a:hover {
+    color: #0a0e17;
+    background-color: #21d9f5;
+    box-shadow: 0 0 12px rgba(33, 217, 245, 0.4);
+}
