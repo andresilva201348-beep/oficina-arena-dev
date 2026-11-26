@@ -1,0 +1,237 @@
+/* RESET */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* PÁGINA */
+.profile-page {
+    font-family: 'Poppins', sans-serif;
+    background-color: #01172C;
+    color: #ffffff;
+}
+
+/* LOGO */
+.logo-sidebar {
+    width: 90px;
+    height: 90px;
+    object-fit: cover;
+}
+
+/* TÍTULO */
+.sidebar-title {
+    font-size: 20px;
+    
+}
+.sidebar-title span{
+    color: #0e4ad8;
+}
+
+/* SIDEBAR */
+.sidebar {
+    position: fixed;
+    top: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 240px;
+    height: 100%;
+    padding: 40px 10px 30px 10px;
+    background: #011c34;
+}
+
+/* CABEÇALHO */
+.sidebar-header {
+    width: 100%;
+    margin-bottom: 16px;
+    display: flex;
+    align-items: center;
+    flex-wrap: nowrap;
+    gap: 4px;
+    margin-top: -10px;
+}
+
+/* NAVEGAÇÃO */
+.sidebar-nav {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+/* LINKS */
+.sidebar-link {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 60px;
+    background: transparent;
+    border: 0;
+    font-family: inherit;
+    color: inherit;
+    cursor: pointer;
+    text-align: left;
+    padding: 0;
+    text-decoration: none;
+}
+
+/* CONTEÚDO DOS LINKS */
+.sidebar-link>span {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    height: 48px;
+    padding: 0 16px 0 12px;
+}
+
+/* EFEITO AO PASSAR O MOUSE */
+.sidebar-link:hover {
+    background-color: #1e293b;
+    border-radius: 8px;
+}
+
+/* ÍCONES */
+.material-symbols-outlined {
+    font-family: 'Material Symbols Outlined';
+    font-size: 24px;
+    font-weight: normal;
+    font-style: normal;
+    line-height: 1;
+}
+
+/* RODAPÉ */
+.sidebar-footer {
+    margin-top: auto;
+
+    display: flex;
+    align-items: center;
+    white-space: nowrap;
+    gap: 10px;
+    border-top: 1px solid #fff;
+    padding: 10px;
+}
+
+/* FOTO DO USUÁRIO */
+.sidebar-footer img {
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+/* NOME DO USUÁRIO */
+.sidebar-footer h2 {
+    font-size: 17px;
+    margin: 0;
+    white-space: nowrap;
+}
+.sidebar-footer span{
+    color: #0e4ad8;
+}
+
+/* BOTÃO DE CONFIGURAÇÕES */
+.settings-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: transparent;
+    border: none;
+    color: white;
+    cursor: pointer;
+}
+
+main {
+    margin-left: 240px;
+    padding: 30px;
+    min-height: 100vh;
+}
+
+.profile-header {
+    display: flex;
+    white-space: nowrap;
+    gap: 30px;
+    margin: 0px 40px 20px;
+
+}
+
+.profile-border {
+    width: 120px;
+    height: 120px;
+    min-width: 120px;
+    flex-shrink: 0;
+    padding: 3px;
+    border-radius: 50%;
+
+    background: linear-gradient(135deg,
+            #8113cb,
+            #af0606,
+            #e79521);
+}
+
+.profile-border img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 3px solid #041e5c;
+    display: block;
+    background: linear-gradient(135deg,
+            #8e0ee4,
+            #747070,
+            #ab5e00);
+
+}
+
+.profile-details {
+    color: #dcdcdc;
+    font-size: 20px;
+}
+
+.profile-details span {
+    color: #0e4ad8;
+
+}
+
+.profile-status {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+}
+
+.profile-details p {
+    font-size: 15px;
+    margin-top: 5px;
+}
+
+.status-dot {
+    width: 9px;
+    height: 9px;
+    background: #22c55e;
+    border-radius: 50%;
+}
+
+.btn-edit {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100px;
+    height: 40px;
+    padding: 0px;
+    margin-left: auto;
+    background: transparent;
+    border: 1px solid #0e4ad8;
+    color: #fff;
+    border-radius: 8px;
+    cursor: pointer;
+
+}
+.btn-edit:hover {
+    background: #0e4ad8;
+    transition: 0.3s;
+}
+.profile-stats{
+    display: flex;
+    align-items: center;
+    justify-content: center
+
+}

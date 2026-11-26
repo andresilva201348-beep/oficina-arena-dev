@@ -7,12 +7,12 @@
 .body {
     font-family: "Roboto", sans-serif;
     line-height: 1.1;
-    background-color: #0a0e17;
+    background-color: #01172C;
     color: #e3e1e1;
 }
 
 .header {
-    background-color: #0a0e30;
+    background-color: #011c34;
     height: 100px;
     padding: 0 20px;
     display: flex;
@@ -185,6 +185,11 @@
     background: transparent;
     border: none;
     box-shadow: none;
+    transition: transform  0.3s ease;
+}
+
+.hero-image img:hover {
+    transform: translateY(-5px);
 }
 
 .hero-image-caption {
@@ -196,7 +201,11 @@
     border: 1px solid #21d9f5;
     padding: 5px 10px;
     border-radius: 8px;
-    background-color: #c14401;
+    background: transparent;
+}
+.hero-image-caption:hover{
+      background: #a03801;
+    transition: 0.3s;
 }
 
 .hero-image-caption strong {
@@ -278,5 +287,3 @@
     margin: 0;
     font-size: 1.2rem;
 }
-
-
